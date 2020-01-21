@@ -2,6 +2,7 @@
   "name": "drzioner/crud-pdo",
   "description": "Una libreria para el manejo de CRUD en PDO",
   "minimum-stability": "dev",
+  "prefer-stable": true,
   "license": "MIT",
   "authors": [
     {
