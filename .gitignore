@@ -1,0 +1,23 @@
+
+# DEPENDENCIAS EXTRENAS O CONFIDENCIALES:
+
+# Eliminando el seguimiento de git del repositorio principal dependencias externas como Composer o Node JS,
+# o folders que manejas informacion o archivos que no deben tener seguimiento o rastreo de Git.
+
+node_modules/
+vendor/
+
+# ARCHIVOS:
+
+# Eliminando el seguimiento de los archivos que requieren configuracion unica en cada instancia del proyecto,
+# o archivos de configuracion de frameworks, dependencias externas e incluso archivos generados por OS.
+
+.env
+
+.DS_Store*
+*-lock.json
+*.lock
+*.log
+
+!.gitignore
+!.editorconfig

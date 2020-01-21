@@ -1,0 +1,24 @@
+{
+  "name": "drzioner/crud-pdo",
+  "description": "Una libreria para el manejo de CRUD en PDO",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Deiner Vega",
+      "homepage": "https://drzioner.github.io/"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "fabpot/php-cs-fixer": "~2.0@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "drzioner\\CrudPdo\\": "src/"
+    }
+  }
+}
